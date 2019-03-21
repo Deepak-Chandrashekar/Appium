@@ -1,15 +1,6 @@
 const action=require('../support/utils.js');
 
 class Sign_in {
-   //var LoginPage = Object.create({
-   //username: function () { return browser.element('#username'); }
-    /**
-     * define elements
-     */
-   
-    //  constructor(){
-    //      this.mobile_number_feild=browser.element('#signup_ti1');
-    //  }
     
     //get mobile_number_field () { return browser.element('#signup_ti1');}
     get mobile_number_field() { return browser.element('#signup_ti1'); }
@@ -51,20 +42,7 @@ class Sign_in {
         this.referralCode_field.setValue(referral_code);
     }
 
-
-    // back() {
-    //     return browser.back();
-    // }
-
-    // appReset() {  
-    //     return browser.reset('in.fourthlion.ccd.mobileapp'); 
-    // }
-
-    // setNetworkConnection(value) {
-    //     return browser.setNetworkConnection(value)
-    // }
-    
-    submit(){
+   submit(){
         this.login_button.click();
     }
 
@@ -75,7 +53,17 @@ class Sign_in {
 
 }
 
+// back() {
+    //     return browser.back();
+    // }
 
+    // appReset() {  
+    //     return browser.reset('in.fourthlion.ccd.mobileapp'); 
+    // }
+
+    // setNetworkConnection(value) {
+    //     return browser.setNetworkConnection(value)
+    // }
 
 // Sign_in.prototype.back() = function(){
 //     return browser.back();
