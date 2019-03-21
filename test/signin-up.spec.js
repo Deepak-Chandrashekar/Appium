@@ -10,7 +10,7 @@ const assert = chai.assert;
 
 const sign_in = new Sign_in();
 
-// var randomNumberOptions = {
+//var randomNumberOptions = {
 //   min:  3000000000,
 //   max:  5999999999,
 //   integer: true
